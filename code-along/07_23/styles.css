@@ -1,17 +1,17 @@
 .wrapper {
 background-color :lightgray;
-height:50vh
+height:50vh;
 }
 
 .box{
 border: 1px solid black;
-height:20px
-width:200px
+height:20px;
+width:200px;
 }
 
 #orange {
 background-color: #faa71b;
-padding-top: 20px
+padding-top: 20px;
 }
 
 #blue {
