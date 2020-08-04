@@ -1,8 +1,5 @@
-.container-fluid {
-    /* background-color:lightblue; */
-    height:100px;
-    
-
+.jumbotron-fluid{
+    height:auto;
 }
 
 .jumbotron{
@@ -48,4 +45,6 @@ background-color: light yellow;
     margin-bottom:20px;
 }
 
+.icon {
 
+}
