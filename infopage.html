@@ -1,67 +1,169 @@
-    <p>
-I am a Senior at Western Michigan University’s Haworth College of Business studying human resource management. I am a dedicated student with a passion for labor relations, negotiations, and training. 
-I am a mentor and a member of Phi Chi Theta Business Fraternity. I enjoy offering insight to other students about the business world, and Human Resources. I am also a member of the Society for Excellence in Human Resources, where we host networking events all about HR. 
-    </p>
+<!DOCTYPE html>
+<html>
 
-    <p> 
-As a student from Detroit, MI, it is very important for me to prove myself in college, and stand out both socially and academically. I want to be able to ispire othr youth from Detroit to aim higher, and push themselves. In the near future, after I graduate from Western, I plan to move to Texas to pursue a career in HR and Real Estate. I am currently working on my realtor's liscence and I plan to be a real estate investor for commercial and residential properties.
-I want to be able to give back to my local community, and mentor students as well.
-    </p>
-    <h4> Key Hard Skills That I Possess </h4>
-    <ul>
-        <li> Proficient in HTML,CSS, JAVASCRIPT </li>
-        <li> Proficient in Salesforce Software </li>
-        <li> Management </li>
-        </li> Web Design </li>
-    </ul>    
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+	<!-- Font-Awesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+		integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <style>
+    html{
+        scroll-behavior:smooth;
+        padding:20px;
+    }
+    </style>
+</head>
 
-    <h4> Key Soft Skills That I Possess </h4>
-    <ul>
-        <li> Empathy </li>
-        <li> Willingness to Learn </li>
-        <li> Organization </li>
-        <li> Adaptibility </li>
-        <li> Critical Thinking </li>
-    </ul>     
-    <h4> Personal Attributes </h4>
-        <ol>
-             <li> Reliability </li>
-             <li> Sense of Humor/ Easy Going </li>
-            <li> Trustworthy </li>
-            <li> Commited </li>
-        </ol>
+<body>
+<!-- Collapse -->
+	<div class="collapse fixed-top bg-dark" id="mobileNavbar">
+		<div class="container mobile-menu-wrapper">
+			<div class="row">
+				<div class="col">
+					<ul class="list-group mt-5 text-right">
+						<li class="list-group-item bg-dark border-0" data-toggle="collapse" data-target="#mobileNavbar">
+							<a href="#emojis">Emojis</a>
+						</li>
+						<li class="list-group-item bg-dark border-0" data-toggle="collapse" data-target="#mobileNavbar">
+							>
+							<a href="#alerts">Alerts</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Navbar -->
+	<nav class="navbar navbar-dark bg-dark">
+		<a href="#" class="navbar-brand">
+			<img height="30" src="http://static1.squarespace.com/static/55c4ffcfe4b0b6679a5a2ff5/t/55c927aee4b0389a4f23a090/1594054577323/?format=1500w" alt="">
+            </a>
 
-    <h4> Career Trajectory </h4>
-    <p> In the next five years I will have graduated from WMU with a Bachelor of Business Administration in Human Resources. I will be moving out of state to Texas, and starting a career as a negotiations specialist as well as a real estae investor. I am 22 now, so I will be 27, hopefully, in my personal life, I will be married with a child. I want to be able to live comfortably and provide for my family. I plan on doing this by using my degree, and networking, as well as tsking all the necessary courses needed to become a successful realtor. 
-    </p>    
-    <table>
-            <tr>
-            <th> Degree </th>
-            <th> Awards </th>
-             </tr>
-                <tr>
-                <td> High School Diploma</td>
-                <td> Phi Chi Theta Award</td>
-                </tr>
-                <tr>
-                
-                <td> SEHR (Society for Excellence in Human Resources)</td>
-                </tr>
-    </table>            
+			<!-- Mobile -->
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#mobileNavbar">
+                <i class="fas fa-bars"></i>
+            </button>
 
-                <h4> Work History </h4>
-             <ol>
-             <li> Insomnia Cookies <em> Shift Lead </em> </li>
-             <li> Western Michigan University <em> Outreach Assistant </em> </li>
-             <li> Western Michigan University <em> Student Alumni Ambassador </em> </li>
-             </ol>   
+			<!-- Desktop -->
+			<ul class="nav d-none">
+				<li class="nav-item">
+					<a href="#emojis" class="nav-link active">Emoji</a>
+				</li>
+				<li class="nav-item">
+					<a href="#alerts" class="nav-link active">Alerts</a>
+				</li>
+				<li class="nav-item">
+					<a href="#carousel" class="nav-link active">Carousel</a>
+				</li>
+				<li class="nav-item">
+					<a href="#forms" class="nav-link active">Form</a>
+				</li>
+				<li class="nav-item">
+					<a href="#modal" class="nav-link active">Modal</a>
+				</li>
+				<li class="nav-item">
+					<a href="#collapse" class="nav-link active">Collapse</a>
+				</li>
+				<li class="nav-item">
+					<a href="#dropdown" class="nav-link active">Dropdown</a>
+				</li>
+			</ul>
+	</nav>
 
-         <h4> Contact Information </h4>
-         <form>
-                    Email:
-                    <input type="text" name="email"><br>
+
+	<p style="color:green;">
+		I am a Senior at Western Michigan University’s Haworth College of Business studying human resource management. I
+		am a dedicated student with a passion for labor relations, negotiations, and training.
+		I am a mentor and a member of Phi Chi Theta Business Fraternity. I enjoy offering insight to other students
+		about the business world, and Human Resources. I am also a member of the Society for Excellence in Human
+		Resources, where we host networking events all about HR.
+	</p>
+
+	<p style="color:green;">
+		As a student from Detroit, MI, it is very important for me to prove myself in college, and stand out both
+		socially and academically. I want to be able to ispire othr youth from Detroit to aim higher, and push
+		themselves. In the near future, after I graduate from Western, I plan to move to Texas to pursue a career in HR
+		and Real Estate. I am currently working on my realtor's liscence and I plan to be a real estate investor for
+		commercial and residential properties.
+		I want to be able to give back to my local community, and mentor students as well.
+	</p>
+	<h4> Key Hard Skills That I Possess </h4>
+	<ul>
+		<li> Proficient in HTML,CSS, JAVASCRIPT </li>
+		<li> Proficient in Salesforce Software </li>
+		<li> Management </li>
+		</li> Web Design </li>
+	</ul>
+
+	<h4> Key Soft Skills That I Possess </h4>
+	<ul>
+		<li> Empathy </li>
+		<li> Willingness to Learn </li>
+		<li> Organization </li>
+		<li> Adaptibility </li>
+		<li> Critical Thinking </li>
+	</ul>
+	<h4> Personal Attributes </h4>
+	<ol>
+		<li> Reliability </li>
+		<li> Sense of Humor/ Easy Going </li>
+		<li> Trustworthy </li>
+		<li> Commited </li>
+	</ol>
+
+	<h4> Career Trajectory </h4>
+	<p> In the next five years I will have graduated from WMU with a Bachelor of Business Administration in Human
+		Resources. I will be moving out of state to Texas, and starting a career as a negotiations specialist as well as
+		a real estae investor. I am 22 now, so I will be 27, hopefully, in my personal life, I will be married with a
+		child. I want to be able to live comfortably and provide for my family. I plan on doing this by using my degree,
+		and networking, as well as tsking all the necessary courses needed to become a successful realtor.
+	</p>
+	<table>
+		<tr>
+			<th> Degree </th>
+			<th> Awards </th>
+		</tr>
+		<tr>
+			<td> High School Diploma</td>
+			<td> Phi Chi Theta Award</td>
+		</tr>
+		<tr>
+
+			<td> SEHR (Society for Excellence in Human Resources)</td>
+		</tr>
+	</table>
+
+	<h4> Work History </h4>
+	<ol>
+		<li> Insomnia Cookies <em> Shift Lead </em> </li>
+		<li> Western Michigan University <em> Outreach Assistant </em> </li>
+		<li> Western Michigan University <em> Student Alumni Ambassador </em> </li>
+	</ol>
+
+	<h4> Contact Information </h4>
+	<form>
+		Email:
+		<input type="text" name="email"><br>
                     Message
-                    <input type="text" name="message"><br>
-                    
-                    <input type="submit" value="submit">
-                </form>    
+		<input type="text" name="message"><br>
+
+		<input type="submit" value="submit">
+     </form>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+								integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+								crossorigin="anonymous"></script>
+							<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+								integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+								crossorigin="anonymous"></script>
+							<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+								integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+								crossorigin="anonymous"></script>
+</body>
+
+</html>

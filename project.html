@@ -1,16 +1,109 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title> Personal Project Prompt </title>
-<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+	<!-- Font-Awesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+		integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+	<title class="p"> Personal Project Prompt </title>
+	<link rel="stylesheet" href="style.css">
+    <style>
+    html{
+        scroll-behavior:smooth;
+        padding:20px;
+    }
+    </style>
 </head>
 <meat charset="utf-8">
-<body>
-    <h1>My name is Aminah-Ani Ashmon</h1>
-    <h3> I am 22 years old. </h3>
-    <h3> I am a senior at Western Michigan University and an assistant manager at Insomnia Cookies. </h3>
-</body>
-<p>
-<img style="max-width 100px" src="https://media-exp1.licdn.com/dms/image/C4E03AQH6OALbOdDxAA/profile-displayphoto-shrink_100_100/0?e=1598486400&v=beta&t=gSV5BBExpvipG9L8dXeljuiUwZXJOLz6pWrHrq6QO7o"> 
-</p>
-<a href="enter.html"> Next Page </a>
+	<!-- Collapse -->
+	<div class="collapse fixed-top bg-dark" id="mobileNavbar">
+		<div class="container mobile-menu-wrapper">
+			<div class="row">
+				<div class="col">
+					<ul class="list-group mt-5 text-right">
+						<li class="list-group-item bg-dark border-0" data-toggle="collapse" data-target="#mobileNavbar">
+							<a href="#emojis">Emojis</a>
+						</li>
+						<li class="list-group-item bg-dark border-0" data-toggle="collapse" data-target="#mobileNavbar">
+							>
+							<a href="#alerts">Alerts</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-dark bg-dark">
+		<a href="#" class="navbar-brand">
+			<img height="30" src="http://static1.squarespace.com/static/55c4ffcfe4b0b6679a5a2ff5/t/55c927aee4b0389a4f23a090/1594054577323/?format=1500w" alt="">
+            </a>
+
+			<!-- Mobile -->
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#mobileNavbar">
+                <i class="fas fa-bars"></i>
+            </button>
+
+			<!-- Desktop -->
+			<ul class="nav d-none">
+				<li class="nav-item">
+					<a href="#emojis" class="nav-link active">Emoji</a>
+				</li>
+				<li class="nav-item">
+					<a href="#alerts" class="nav-link active">Alerts</a>
+				</li>
+				<li class="nav-item">
+					<a href="#carousel" class="nav-link active">Carousel</a>
+				</li>
+				<li class="nav-item">
+					<a href="#forms" class="nav-link active">Form</a>
+				</li>
+				<li class="nav-item">
+					<a href="#modal" class="nav-link active">Modal</a>
+				</li>
+				<li class="nav-item">
+					<a href="#collapse" class="nav-link active">Collapse</a>
+				</li>
+				<li class="nav-item">
+					<a href="#dropdown" class="nav-link active">Dropdown</a>
+				</li>
+			</ul>
+	</nav>
+
+	
+	
+		
+			<body>
+				<div class="container-fluid">
+					<p>
+						<img style="max-width:400px;" src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-1/p160x160/108994553_10213885680695918_1176103184575849543_n.jpg?_nc_cat=102&_nc_sid=dbb9e7&_nc_ohc=1vX_EgdG4UgAX97SJ1w&_nc_ht=scontent-ort2-2.xx&_nc_tp=6&oh=9b02bafd5f8f9ed73bada66105668ece&oe=5F57C222">
+                     </p>
+                    <div style="">
+						<h1 class="p">My name is Aminah-Ani Ashmon</h1>
+						<h3 class="p"> I'm 22 years old. </h3>
+						<h3 class="p"> I am a senior at Western Michigan University and an assistant manager at Insomnia
+							Cookies. </h3>
+                    </div>
+				
+							<a href="infopage.html" class="btn btn-primary btn-lg">Next</a>
+							<!-- <a href="enter.html"> Next Page </a> -->
+							<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+								integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+								crossorigin="anonymous"></script>
+							<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+								integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+								crossorigin="anonymous"></script>
+							<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+								integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+								crossorigin="anonymous"></script>
+			</body>
+
+</html>
